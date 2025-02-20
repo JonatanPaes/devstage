@@ -11,7 +11,7 @@ export default function InvitePage() {
   return (
     <div className="flex min-h-dvh flex-col items-center justify-between gap-16 md:flex-row">
       <div className="flex w-full max-w-[550px] flex-col gap-10">
-        <Image src={logo} alt="devstage" className="h-[30px] w-[108.5px]" />
+        <Image src={logo} alt="devstage" width={108.5} height={30} />
 
         <div className="space-y-2">
           <h1 className="font-heading text-4xl leading-none font-semibold text-gray-100">
