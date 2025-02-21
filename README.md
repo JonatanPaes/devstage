@@ -1,34 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <h1>Devstage</h1>
+  
+  ![GitHub repo size](https://img.shields.io/github/repo-size/JonatanPaes/devstage)
+  ![GitHub language count](https://img.shields.io/github/languages/count/JonatanPaes/devstage)
+  ![GitHub license](https://img.shields.io/github/license/JonatanPaes/devstage)
+</div>
 
-## Getting Started
+## 📋 Descrição
 
-First, run the development server:
+Devstage é uma aplicação permite aos usuários se inscreverem em eventos e, ao mesmo tempo, participar de um emocionante ranking de indicações. Com uma interface intuitiva e funcionalidades robustas, este sistema foi desenvolvido para incentivar a participação ativa dos usuários, promovendo eventos.
 
+## 🚀 Tecnologias Utilizadas
+
+- [Next.js](https://nextjs.org/)
+- [React Hook Form](https://react-hook-form.com/)
+- [Zod](https://zod.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Orval](https://orval.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+
+## 🛠️ Pré-requisitos
+
+- Node.js (versão 22.11.0)
+- npm ou yarn
+
+## ⚙️ Como Executar
+
+1. **Clone o repositório:**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git https://github.com/JonatanPaes/devstage.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Acesse a pasta do projeto:**
+```bash
+cd devstage
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Instale as dependências:**
+```bash
+npm install
+# ou
+yarn install
+```
 
-## Learn More
+7. **Execute o projeto:**
+```bash
+npm run dev
+# ou
+yarn dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+O projeto estará disponível em `http://localhost:3000`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📱 Preview da Aplicação
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<div align="center">
+  <img alt="Demonstração do Ignite Gym" src="./preview/devstage.gif" width="50%" height="50%" />
+</div>
 
-## Deploy on Vercel
+## 📄 Licença
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👨‍💻 Autor
+
+Feito por Jonatán Paes
+
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jonatanpaes/)
